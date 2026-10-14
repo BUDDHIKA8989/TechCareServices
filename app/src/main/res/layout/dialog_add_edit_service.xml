@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Name"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etServiceName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter service name"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device Category"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <Spinner
+            android:id="@+id/spinnerDevice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etServiceDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Enter service description"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price (Rs)"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etServicePrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter price"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration Estimate"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etServiceDuration"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="e.g. 2-3 hours"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

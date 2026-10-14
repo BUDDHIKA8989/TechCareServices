@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etTechName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter technician name"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etTechEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter email"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etTechPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter phone number"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etTechPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter password"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specialization"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <EditText
+            android:id="@+id/etTechSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="e.g. Mobile &amp; Laptop"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

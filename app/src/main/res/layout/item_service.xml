@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvServiceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Replacement"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvServiceDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replace broken or cracked screen"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/tvServicePrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rs2500"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvServiceDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏱ 2-3 hours"
+                android:textSize="14sp"
+                android:textColor="#FF9800"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRequestService"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Request This Service"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

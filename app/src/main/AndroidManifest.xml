@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!-- Splash Activity - Launcher -->
+        <activity
+            android:name=".views.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".views.LoginActivity"
+            android:exported="false" />
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".views.RegisterActivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".views.MainActivity"
+            android:exported="false" />
+
+        <!-- Customer Dashboard Activity -->
+        <activity
+            android:name=".views.CustomerDashboardActivity"
+            android:exported="false" />
+
+        <!-- Device Services Activity -->
+        <activity
+            android:name=".views.DeviceServicesActivity"
+            android:exported="false" />
+
+        <!-- Request Service Activity -->
+        <activity
+            android:name=".views.RequestServiceActivity"
+            android:exported="false" />
+
+        <!-- My Bookings Activity -->
+        <activity
+            android:name=".views.MyBookingsActivity"
+            android:exported="false" />
+
+        <!-- Booking Details Activity -->
+        <activity
+            android:name=".views.BookingDetailsActivity"
+            android:exported="false" />
+
+        <!-- Customer Profile Activity -->
+        <activity
+            android:name=".views.CustomerProfileActivity"
+            android:exported="false" />
+
+        <!-- Notifications Activity -->
+        <activity
+            android:name=".views.NotificationsActivity"
+            android:exported="false" />
+
+        <!-- ============ ADMIN ACTIVITIES ============ -->
+
+        <!-- Admin Dashboard Activity -->
+        <activity
+            android:name=".views.AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- Admin Services Activity -->
+        <activity
+            android:name=".views.AdminServicesActivity"
+            android:exported="false" />
+
+        <!-- Admin Technicians Activity -->
+        <activity
+            android:name=".views.AdminTechniciansActivity"
+            android:exported="false" />
+
+        <!-- Admin Customers Activity -->
+        <activity
+            android:name=".views.AdminCustomersActivity"
+            android:exported="false" />
+
+        <!-- Admin Bookings Activity -->
+        <activity
+            android:name=".views.AdminBookingsActivity"
+            android:exported="false" />
+
+
+
+    </application>
+
+</manifest>
